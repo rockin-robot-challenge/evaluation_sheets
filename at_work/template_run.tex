@@ -1,7 +1,7 @@
 
 \newcommand{\fbmOneRunTemplate}[1]{
 \noindent \textbf{Run #1}
-Start Time: \line(1,0){50}, End Time: \line(1,0){50}, $\square$ Timeout
+Duration: \line(1,0){50} \hspace{0.5cm} $\square$ Timeout
 \vspace{0.2cm}
 
 \noindent Object Detection
@@ -25,7 +25,7 @@ Start Time: \line(1,0){50}, End Time: \line(1,0){50}, $\square$ Timeout
 \noindent Pose
 \vspace{0.2cm}
 
-\noindent \begin{tabular}{ | p{2cm} || p{1cm} | p{1cm} | p{1cm} || p{2cm} || p{1cm} | p{1cm} | p{1cm} || }
+\noindent \begin{tabular}{ | p{1.2cm} || p{1.8cm} | p{1.8cm} | p{1.8cm} || p{1.2cm} || p{1.8cm} | p{1.8cm} | p{1.8cm} || }
 \hline
 \multirow{2}{*}{GT}  & x & y & $\theta$ & \multirow{2}{*}{Robot} & x & y & $\theta$ \\ 
 \cline{2-4} \cline{6-8}
@@ -42,12 +42,11 @@ Start Time: \line(1,0){50}, End Time: \line(1,0){50}, $\square$ Timeout
 
 \newcommand{\fbmTwoRunTemplate}[1]{
 \noindent \textbf{Run #1}
-Start time: \line(1,0){50}, End time: \line(1,0){50}, $\square$ Timeout
+Duration: \line(1,0){50} \hspace{0.5cm} $\square$ Timeout
 \vspace{0.2cm}
 
-\noindent Object id: \line(1,0){150}, Orientation: \line(1,0){50}, \hspace{0.2cm}
-$\square$ Success, $\square$ Dropped
-
+\noindent Object id: \line(1,0){100}, Orientation: \line(1,0){50}, \hspace{0.2cm}
+$\square$ Success, $\square$ Dropped, $\square$ Missed
 
 \vspace{0.2cm}
 \noindent Comments: \hrulefill 
