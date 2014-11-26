@@ -1,0 +1,45 @@
+
+\newcommand{\fbmOneRunTemplate}[1]{
+\noindent \textbf{Run #1}
+Start Time: \line(1,0){50}, End Time: \line(1,0){50}, $\square$ Timeout
+\vspace{0.2cm}
+
+Object Detection
+\vspace{0.2cm}
+
+\newcommand{\x}{0.8cm}
+
+\begin{tabular}{ | l || p{\x} | p{\x} | p{\x} | p{\x} || p{\x} | p{\x} || p{\x} | p{\x} || p{\x} | p{\x} || }
+\hline
+\multirow{2}{*}{GT}  & \multicolumn{4}{ |c|| }{A} & \multicolumn{2}{ |c|| }{B} & \multicolumn{2}{ |c|| }{C} & \multicolumn{2}{ |c|| }{D}\\
+\cline{2-11} 
+ & 1 & 2 & 3 & 4 & 1 & 2 & 1 & 2 & 1 & 2  \\ 
+\hline
+\hline
+\multirow{2}{*}{Robot} & \multicolumn{4}{ |c|| }{A} & \multicolumn{2}{ |c|| }{B} & \multicolumn{2}{ |c|| }{C} & \multicolumn{2}{ |c|| }{D}\\
+\cline{2-11} 
+ & 1 & 2 & 3 & 4 & 1 & 2 & 1 & 2 & 1 & 2  \\
+\hline
+\end{tabular}
+
+\vspace{0.3cm}
+Pose estimation
+\vspace{0.2cm}
+
+\begin{tabular}{ | p{2cm} || p{1cm} | p{1cm} | p{1cm} || p{2cm} || p{1cm} | p{1cm} | p{1cm} || }
+\hline
+\multirow{2}{*}{GT}  & x & y & z & \multirow{2}{*}{Robot} & x & y & z \\ 
+\cline{2-4} \cline{6-8}
+& & & & & & & \\
+\hline
+\end{tabular}
+
+\let\x\undefined
+
+\vspace{0.4cm}
+\noindent Comments: \hrulefill 
+
+\noindent \hrulefill
+\vspace{0.4cm}
+\newline
+}
