@@ -43,3 +43,32 @@ Pose
 \vspace{0.4cm}
 \newline
 }
+
+
+\newcommand{\fbmTwoRunTemplate}[1]{
+\noindent \textbf{Run #1}
+Duration: \line(1,0){50} \hspace{0.5cm} $\square$ Timeout
+
+\vspace{0.2cm}
+
+
+\newcommand{\x}{0.8cm}
+\newcommand{\y}{15}
+
+\noindent \begin{tabular}{ p{2cm} p{\x} p{\x} p{\x} p{\x} p{\x} p{\x} p{\x} p{\x} p{\x} p{\x}} \\
+& 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+Status & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\ \\
+GT & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} \\  \\
+Robot & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} & \line(1,0){\y} \\
+\end{tabular}
+
+\vspace{0.4cm}
+\noindent Comments: \hrulefill 
+
+\noindent \hrulefill
+\vspace{0.4cm}
+\newline
+
+\let\x\undefined
+\let\y\undefined
+}
