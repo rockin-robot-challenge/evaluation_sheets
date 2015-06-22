@@ -3,73 +3,62 @@
 \noindent \textbf{Duration}: \line(1,0){50} \hspace{0.5cm} $\square$ \textbf{Timeout} \\
 
 \revadd{Notes on TBM 2 to teams/referee/organizer:\\}
-
-\revadd{1. The cover plates are organized in the conveyor belt with the order of \textbf{unusable-unusable-faulty-faulty} (yes, specifically in this order).
+\revadd{The cover plates are organized in the conveyor belt with the order of \textbf{unusable-unusable-faulty-faulty} (yes, specifically in this order).
 The reasoning is because processing unusable cover plate is ``simpler" than processing faulty ones.
-As such the only way to ensure fairness is to have a specific ordering of the cover plates.}
-
-\revadd{2. \textbf{Each cover plates needs to be processed entirely before the robot move on to processing the next cover plate.} 
-Unusable cover plate should be delivered to the trash container box and faulty cover plate should be fixed with the drilling machine. 
-Please note that processing of each cover plates doesn't have to be succesful, yet the robot need to show the expected behavior to complete the process. 
-This is to prevent any achievement mining (e.g. repeatedly only picking a cover plate from the conveyor belt's exit ramp).}
+As such the only way to ensure fairness is to have the same ordering of the cover plates.}
 
 \subsection*{Achievements}
 \begin{tabular}{ l c c c c}\\
 %\st{The robot correctly identifies perfect plates and sorts them in the corresponding} & &  \\
 %\st{card file box:} & &  \\ \\
 
-\revadd{Cooperate with CFH and Networked Devices througout the task} & $\square$ & \\
+\revadd{1. Cooperate with CFH and networked devices througout the task} & $\square$ & \\
 Comment: \line(1,0){330} & & & \\
-\scriptsize{\pbox{15cm}{This is marked when the robot is, at the least, receive its task from CFH AND operate quality \\ control camera.}} & & & \\ \\
+
+\revadd{2. Benchmarking data is delivered appropriately} & $\square$ & \\
+Comment: \line(1,0){330} & & & \\
 
 \revdel{The robot collect the cover plate box from the shelves} & & \\
 
 \revdel{The robot correctly grasp the plates} & & \\
-
-\revadd{The robot pick up a cover plate from the conveyor belt exit ramp} & $\square$ & $\square$  & $\square$ & $\square$ \\
-Comment: \line(1,0){330} & & & \\
-\scriptsize{\pbox{15cm}{Lifting up the cover plate is considered a success.}} & & & \\ \\
-
 \revdel{The robot place the cover plate box to the correct workspace} & & \\
-
 \revdel{The robot correctly sort the plates} & & \\
 
-\revadd{The robot place the unusable cover plate inside the trash box container} & $\square$ & $\square$ \\
+\revadd{3.1 The robot pick up an unusable cover plate from the conveyor belt exit ramp} & $\square$ & $\square$ \\
+\revadd{3.2 The robot place an unusable cover plate inside the trash box container} & $\square$ & $\square$ \\
+\revadd{3.3 The robot collect one set of achievement 3.1 and 3.2} & $\square$ & $\square$ \\
 Comment: \line(1,0){330} & & & \\ \\
 
+
 \revdel{The robot perform the drilling process for faulty plates} & & \\
-\revadd{The robot place a cover plate in the drilling machine} & $\square$ & $\square$ &\\
+\revadd{4.1 The robot pick up a faulty cover plate from the conveyor belt exit ramp} & $\square$ & $\square$ \\
+\revadd{4.2 The robot deliver a faulty cover plate to the drilling machine workstation} & $\square$ & $\square$ &\\
+\revadd{4.3 The robot inserted a faulty cover plate to the drilling machine} & $\square$ & $\square$ &\\
+\revadd{4.4 The robot collect one set of achievement 4.1, 4.2 and 4.3 (one set)} & $\square$ & $\square$ \\
 Comment: \line(1,0){330} & & &\\ \\
 
-
-\revadd{The robot pick up a cover plate in the drilling machine} & $\square$ & $\square$ &\\
-Comment: \line(1,0){330} & & &\\ 
-\scriptsize{\pbox{15cm}{Again, lifting up the cover plate is considered a success.}} & & & \\ \\
-
-
-\revadd{The robot place a cover plate inside the cover plate box} & $\square$ & $\square$ & & \\
+\revadd{5.1 The robot operate the drilling machine to fix a faulty cover plate}& $\square$ & $\square$ &\\
+\revadd{5.2 The robot pick up a perfect cover plate in the drilling machine} & $\square$ & $\square$ &\\
+\revadd{5.3 The robot place a perfect cover plate inside the cover plate box} & $\square$ & $\square$ & & \\
+\revadd{5.4 The robot collect one set of achievement 5.1, 5.2 and 5.3} & $\square$ & $\square$ \\
 Comment: \line(1,0){330} & & & \\ \\
 
 
 \end{tabular}
 
 \subsection*{Penalized Behaviors}
-\begin{tabular}{ l l}
-The robot bumps into obstacles in the test bed: & $\square$ $\square$ $\square$ $\square$ $\square$ \\ \\
-\revdel{The robot drops a plate:} & \\
-\revadd{The robot collide with a networked device:} & $\square$ $\square$ $\square$ $\square$ $\square$ \\
+\begin{tabular}{ l l l l l l}
+The robot bumps into obstacles in the test bed: & $\square$ $\square$ $\square$ $\square$ $\square$ \\ 
+The robot drops an object: & $\square$ $\square$ $\square$ $\square$ $\square$ \\ 
+The robot stops working: & $\square$ \\ 
 \end{tabular}
 
 \subsection*{Disqualifying Behaviors}
 \begin{tabular}{ l c}
-\revdel{The robot damages or destroys the objects requested to manipulate:} & \\
-\revdel{The robot damages the test bed:} &  \\
-
-\revadd{The robot damages the test bed:} & $\square$ \\
+The robot damages or destroys the objects requested to manipulate: & $\square$ \\ 
+The robot damages the test bed: & $\square$ \\ 
 Comment: \line(1,0){330} & \\
 \revadd{\scriptsize{\pbox{15cm}{WARNING: A disqualifying behaviors discard all other achievement in the current task. Use it \\ only when it is really necessary (e.g. cheating).}}} &  \\
 \end{tabular}
 
 \input{../signatures}
-
-\revcom{RD: This is a very good first draft for TBM2}
