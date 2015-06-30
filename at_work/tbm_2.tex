@@ -11,26 +11,26 @@ As such the only way to ensure fairness is to have the same ordering of the cove
 \begin{tabular}{ l c c c c}\\
 %\st{The robot correctly identifies perfect plates and sorts them in the corresponding} & &  \\
 %\st{card file box:} & &  \\ \\
-\revdel{The robot collect the cover plate box from the shelves} & & \\
-\revdel{The robot correctly grasp the plates} & & \\
-\revdel{The robot place the cover plate box to the correct workspace} & & \\
-\revdel{The robot correctly sort the plates} & & \\
+%\revdel{The robot collect the cover plate box from the shelves} & & \\
+%\revdel{The robot correctly grasp the plates} & & \\
+%\revdel{The robot place the cover plate box to the correct workspace} & & \\
+%\revdel{The robot correctly sort the plates} & & \\
 
-\textbf{Set 1} Picking and placing parts \\
+\textbf{Set 1} Processing unusable cover plate & plate 1 & plate 2\\
 \revadd{The robot picks up an unusable cover plate from the conveyor belt exit ramp} & $\square$ & $\square$ \\
 \revadd{The robot placse an unusable cover plate inside the trash box container} & $\square$ & $\square$ \\
 \revadd{The robot collects the achievements for \textbf{set 1}} & $\square$ & $\square$ \\
 Comment: \line(1,0){330} & & & \\ \\
 
-\textbf{Set 2} Preparing the drilling process \\
-\revdel{The robot performs the drilling process for faulty plates} & & \\
+\textbf{Set 2} Processing faulty plates & plate 1 & plate 2\\
+%\revdel{The robot performs the drilling process for faulty plates} & & \\
 \revadd{The robot picks up a faulty cover plate from the conveyor belt exit ramp} & $\square$ & $\square$ \\
-\revadd{The robot delivers a faulty cover plate to the drilling machine workstation} & $\square$ & $\square$ &\\
+%\revadd{The robot delivers a faulty cover plate to the drilling machine workstation} & $\square$ & $\square$ &\\
 \revadd{The robot inserted a faulty cover plate into the drilling machine} & $\square$ & $\square$ &\\
 \revadd{The robot collects the achievements for \textbf{set 2}} & $\square$ & $\square$ \\
 Comment: \line(1,0){330} & & &\\ \\
 
-\textbf{Set 3} Finishing the drilling process \\
+\textbf{Set 3} Processing corrected plates & plate 1 & plate 2 \\
 \revadd{The robot operates the drilling machine to fix a faulty cover plate}& $\square$ & $\square$ &\\
 \revadd{The robot picks up a perfect cover plate in the drilling machine} & $\square$ & $\square$ &\\
 \revadd{The robot places a perfect cover plate inside the cover plate box} & $\square$ & $\square$ & & \\
