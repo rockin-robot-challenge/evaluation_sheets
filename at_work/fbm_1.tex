@@ -1,36 +1,40 @@
 \section*{FBM 1: Object Perception}
 \input{../names}
 
-\noindent Notes:
+\vspace{0.3cm}
+
+\noindent \textbf{Objects}:
 \begin{itemize}
-\item The duration is based on the referee stop watch.
-\item Timeout is checked when the robot cannot detect the object within the specified test duration.
-\item GT is the ground truth which is the information provided by the referee box.
-\item Object identifier:
-	\begin{itemize}
-		\item EM-01(1)=aid tray, EM-02(2)=cover plate box
-		\item AX-01(4)=bearing box type A, AX-16(3)=bearing box type B
-		\item AX-02(6)=bearing, AX-09(7)=motor, AX-03(5)=axis
-	\end{itemize}
+    \setlength\itemsep{0cm}
+	\item EM-01: aid tray orange
+	\item EM-02: cardbox black
+	\item AX-01: bearing box type A
+	\item AX-16: bearing box type B
+	\item AX-02: bearing
+	\item AX-03: axis
+	\item AX-09: motor
 \end{itemize}
 
-\vspace{0.5cm}
+\vspace{0.3cm}
 
-\fbmOneRunTemplate{1}\\
-\fbmOneRunTemplate{2}
+\begin{tabular}{|r|l|l|l|l|l|}
+\hline
+         & \textbf{Object 1} & \textbf{Object 2}  & \textbf{Object 3}   & \textbf{Object 4}   & \textbf{Object 5} \\ \hline
+\textit{Instance}	 &          &           &            &            &          \\ \hline
+\textit{Score}	 &          &           &            &            &          \\ \hline
 
-\newpage
-\fbmOneRunTemplate{3}\\
-\fbmOneRunTemplate{4}\\
-\fbmOneRunTemplate{5}\\
+         & \textbf{Object 6}  & \textbf{Object 7}   & \textbf{Object 8}   & \textbf{Object 9}  & \textbf{Object 10}\\ \hline
+\textit{Instance}	 &          &           &            &            &          \\ \hline
+\textit{Score}	 &          &           &            &            &          \\ \hline
+\end{tabular}
 
-\newpage
-\fbmOneRunTemplate{6}\\
-\fbmOneRunTemplate{7}\\
-\fbmOneRunTemplate{8}\\
+\vspace{0.3cm}
 
-\newpage
-\fbmOneRunTemplate{9}\\
-\fbmOneRunTemplate{10}\\
+\begin{flushleft}
+\textbf{Overall score:} \line(1,0){200}\\
+\vspace{0.3cm}
+\end{flushleft}
+
+
 
 \input{../signatures}
