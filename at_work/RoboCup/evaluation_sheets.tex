@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper, left=20mm, right=20mm, top=20mm, bottom=20mm,]{geometry}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{amssymb}
+\usepackage{soul}
+\usepackage{pbox}
+\usepackage{color}
+
+\newcommand{\revadd}[1]{\textcolor{blue}{#1}}
+\newcommand{\revdel}[1]{\textcolor{red}{\st{#1}}}
+\newcommand{\revcom}[1]{\textcolor{magenta}{#1}}
+
+
+\begin{document}
+
+% do not show page number
+\pagestyle{empty}
+
+\include{BNT}
+\include{BMT}
+\include{BTT}
+\include{PTT}
+\include{CBT}
+\include{Finals}
+%\include{tbm_1}
+%\include{tbm_2}
+%\include{tbm_3}
+%\include{fbm_1}
+%\include{fbm_2}
+%\include{fbm_3}
+
+\end{document}
+
